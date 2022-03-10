@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>
+            Jia Wei's Speech Recognition
+        </h1>
+        <form action ="http://127.0.0.1:5000/" method = "post" enctype="multipart/form-data">
+            <P>Upload wav file here:</P>
+            <p>
+                <input type = "file" name = "file">
+            </p>
+            <p>
+                <input type="submit" value = "Upload">
+            </p>
+        </form>
+        {{result}}
+    </body>
+</html>
